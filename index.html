@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0'">
+        <title>spotify</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/656d5f351a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <div class="besar">
+            <div class="container">
+            <nav>
+                <img src="image/logo.jpg" class="logo">
+              
+                        <button class="common-btn"><a  href="https://www.youtube.com/watch?v=zmun7JzWGPE">start free trail</a></button>
+               
+
+            
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>search</a></li>
+                    <li><a href="#"><i class="fa-sharp fa-solid fa-bookmark"></i>Your Library</a></li><br>
+                    <li><a href="#"><i class="fa-solid fa-plus"></i>Create Playlist</a></li>
+                    <li><a href="#"><i class="fa-solid fa-heart"></i></i>Liked Song</a></li>
+                </ul>         
+            </nav> 
+            </div>
+        
+            <div class="content">
+                <nav class="atas">
+                    <ul>
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <img src="image/moon.png" id="icon">
+                    </ul>
+                </nav>
+                
+            
+                <div class="gambar">
+                    <h2>Spotify Playlist</h2>
+                    <br>
+                    <br>
+                    <br>
+                    <nav>
+                        <ul>
+                            <a href="https://open.spotify.com/playlist/37i9dQZF1DX5Ejj0EkURtP?si=07630c3ce85f44cf"><img src="image/all out 2010.jpeg"><h1>All Out 2010</h1><br>
+                                <p>Kim Petras and Sam Smith</p></a>
+
+                            <a href="https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd?si=d758a366b126407a"><img src="image/rap.jpeg"><h1>Rap Caviar</h1><br><p>New music from Roddy Ricch,
+                                 Don Toliver and Gucci Mane</p></a>
+
+                            <a href="https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M?si=c6a676fc2e0b4ac7"><img src="image/top hits.jpeg"><h1>Today Top Hits</h1><br><p>Sam Smith & Kim Petras 
+                                are on top of the Hottest 50!</p></a>
+
+                            <a href="https://open.spotify.com/playlist/37i9dQZF1DWXRqgorJj26U?si=12efef95d84b46e7"><img src="image/rock.jpg"><h1>Rock Classic</h1><br><p>Rock legends & epic songs that continue to inspire
+                                 generations. Cover: Guns N' Roses</p></a>
+                        </ul>
+                            <br>
+                            <br>
+                            <br>
+                        <h2> Your Top Mix</h2>
+                            <br>
+                            <br>
+                            <br>
+                        <ul>
+                            <a href="https://open.spotify.com/playlist/37i9dQZF1EIWVN1Pj6wNJF?si=1f28b966c2fb45d8"><img src="image/aizat.jpeg"><h1>Aizat Amdan Mix</h1><br>
+                                <p>SonaOne, Aepul Drama Band, Sarah Suhairi<span> and more</span></p></a>
+
+                            <a href="https://open.spotify.com/playlist/37i9dQZF1EVKuMoAJjoTIw?si=d01ffea580e74458"><img src="image/tri suaka.jpeg"><h1>Moody Mix</h1><br>
+                                <p>Tri Suaka,DOLLA, Seventeen<span> and more</span></p></a>
+
+                             <a href="#"><img src="image/hujan.jpeg"><h1>Hujan Mix</h1><br>
+                                <p>Aepul Drama Band, Aizat Amdan, Joe Fizzow<span> and more</span></p></a>
+                            
+                            <a href="#"><img src="image/hip hop mix.jpeg"><h1>Hip Hop Mix</h1><br>
+                                <p>Aman Ra<span> and more</span></p></a>
+
+                           
+                        </ul>
+                    </nav>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <script>
+            var icon= document.getElementById("icon");
+            icon.onclick=function(){
+                document.body.classList.toggle("dark-theme");
+                if(document.body.classList.contains("dark-theme")){
+                    icon.src="image/sun.png";
+                }else{
+                    icon.src="image/moon.png";
+                }
+              
+            }
+
+
+        </script>
+
+    </body>
+</html>
